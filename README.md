@@ -4,5 +4,5 @@ ranch
 To run:
 
 ```
-$ ruby lib/ranch.rb
+ruby lib/ranch.rb
 ```

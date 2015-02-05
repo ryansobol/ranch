@@ -12,5 +12,5 @@ trigger = Horse.new('Trigger', 9)
 
 pasture = Pasture.new([buster, trigger])
 
-barn.turn_out(pasture)
-pasture.turn_in(barn)
+barn.turn_out!(pasture)
+pasture.turn_in!(barn)

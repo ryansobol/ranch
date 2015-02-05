@@ -5,7 +5,7 @@ class Barn
 
   attr_writer :horses
 
-  def turn_out(pasture)
+  def turn_out!(pasture)
     attacker, defender = @horses.sample(2)
     attacker.battle!(defender)
 

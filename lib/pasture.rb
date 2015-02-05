@@ -5,7 +5,7 @@ class Pasture
 
   attr_writer :horses
 
-  def turn_in(barn)
+  def turn_in!(barn)
     @horses.size.times do
       attacker, defender = @horses.sample(2)
       attacker.battle!(defender)
